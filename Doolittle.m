@@ -1,5 +1,6 @@
 A = [1,1,1; 1,2,2; 1,2,3];
 B = [5;6;8];
+matrixSize = length(A)
 Lower = eye(matrixSize); % Initialize L as the identity matrix
 Upper = zeros(size(A));
 
