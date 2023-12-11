@@ -6,10 +6,10 @@ eq1 = A + B + C == 89; eq2 = A == C - 6;eq3 = B == 3*C;
 
 sol = solve([eq1, eq2, eq3], [A, B, C]);
 
-cashA = sol.A;
-cashB = sol.B;
-cashC = sol.C;
+cA = sol.A;
+cB = sol.B;
+cC = sol.C;
 
-fprintf('Student A has Php %d.\n', cashA);
-fprintf('Student B has Php %d.\n', cashB);
-fprintf('Student C has Php %d.\n', cashC);
+fprintf('Student A has Php %d.\n', cA);
+fprintf('Student B has Php %d.\n', cB);
+fprintf('Student C has Php %d.\n', cC);
